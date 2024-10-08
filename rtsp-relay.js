@@ -31,7 +31,7 @@ app.ws("/api/stream", (ws, req) => {
         url,
         verbose: true,
         transport: "tcp",
-        additionalFlags: ["-q", "1", "-s", "1920x1080"], // 其他参数设置，例如画质
+        // additionalFlags: ["-q", "1", "-s", "1920x1080"], // 其他参数设置，例如画质
     });
 
     // 绑定新流到 WebSocket
